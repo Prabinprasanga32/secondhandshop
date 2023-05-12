@@ -35,5 +35,13 @@ class ProductController extends Controller
 
         return view('home')->with('products', Product::all());
     }
-
+    public function camera(){
+        return view('layouts.productdetailcamera');
+    }
+    public function bag(){
+        return view('layouts.productdetailbag');
+    }
+    public function bottle(){
+        return view('layouts.productdetailbottle');
+    }
 }
