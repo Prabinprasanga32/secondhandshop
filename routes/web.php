@@ -20,3 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('product/camera',[ProductController::class, 'camera'])->name('camera');
+Route::get('product/bag',[ProductController::class, 'bag'])->name('bag');
+Route::get('product/bottle',[ProductController::class, 'bottle'])->name('bottle');

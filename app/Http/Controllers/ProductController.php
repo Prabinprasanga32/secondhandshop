@@ -44,16 +44,4 @@ class ProductController extends Controller
     public function bottle(){
         return view('layouts.productdetailbottle');
     }
-
-    public function user1(){
-        return view('layouts.user1');
-    }
-
-    public function user2(){
-        return view('layouts.user2');
-    }
-
-    public function user3(){
-        return view('layouts.user3');
-    }
 }
